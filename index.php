@@ -1,4 +1,5 @@
 <?php
+
 include_once 'assets/conn/dbconnect.php';
 // include_once 'assets/conn/server.php';
 ?>
@@ -56,8 +57,7 @@ VALUES ( '$icPatient', '$password', '$patientFirstName', '$patientLastName', '$p
 $result = mysqli_query($con, $query);
 // echo $result;
 if( $result )
-{
-?>
+{ ?>
 <script type="text/javascript">
 alert('Register success. Please Login to make an appointment.');
 </script>
@@ -393,63 +393,7 @@ alert('User already registered. Please try again');
                     <hr>
                     <h2>Feel free to drop us a line to contact us</h2>
                 </div>
-                <div class="row">
-                    <div class="col-md-4 col-sm-12 col-xs-12 pad25">
-                        <div class="col-xs-2">
-                            <span class="fa fa-pencil"></span>
-                        </div>
-                        <div class="col-xs-10">
-                            <h4>Branding</h4>
-                            <p>Retro chillwave YOLO four loko photo booth. Brooklyn kale chips, seitan hella 3 wolf moon slow-carb paleo.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-12 col-xs-12 pad25">
-                        <div class="col-xs-2">
-                            <span class="fa fa-code"></span>
-                        </div>
-                        <div class="col-xs-10">
-                            <h4>Web Design</h4>
-                            <p>Retro chillwave YOLO four loko photo booth. Brooklyn kale chips, seitan hella 3 wolf moon slow-carb paleo.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-12 col-xs-12 pad25">
-                        <div class="col-xs-2">
-                            <span class="fa fa-comments-o"></span>
-                        </div>
-                        <div class="col-xs-10">
-                            <h4>Social Marketing</h4>
-                            <p>Retro chillwave YOLO four loko photo booth. Brooklyn kale chips, seitan hella 3 wolf moon slow-carb paleo.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-12 col-xs-12 pad25">
-                        <div class="col-xs-2">
-                            <span class="fa fa-search"></span>
-                        </div>
-                        <div class="col-xs-10">
-                            <h4>SEO</h4>
-                            <p>Retro chillwave YOLO four loko photo booth. Brooklyn kale chips, seitan hella 3 wolf moon slow-carb paleo.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-12 col-xs-12 pad25">
-                        <div class="col-xs-2">
-                            <span class="fa fa-mobile"></span>
-                        </div>
-                        <div class="col-xs-10">
-                            <h4>Mobile Apps</h4>
-                            <p>Retro chillwave YOLO four loko photo booth. Brooklyn kale chips, seitan hella 3 wolf moon slow-carb paleo.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-12 col-xs-12 pad25">
-                        <div class="col-xs-2">
-                            <span class="fa fa-bookmark"></span>
-                        </div>
-                        <div class="col-xs-10">
-                            <h4>Corporate Literture</h4>
-                            <p>Retro chillwave YOLO four loko photo booth. Brooklyn kale chips, seitan hella 3 wolf moon slow-carb paleo.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.row -->
+               
             </div>
             <!-- /.container -->
         </section>

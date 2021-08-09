@@ -153,7 +153,7 @@ header( 'Location: doctorprofile.php' ) ;
                         
                         <div class="col-md-9 col-sm-9  user-wrapper">
                             <div class="description">
-                                <h3>Dr <?php echo $userRow['doctorFirstName']; ?> <?php echo $userRow['doctorLastName']; ?> </h3>
+                                <h3> <?php echo $userRow['doctorFirstName']; ?> <?php echo $userRow['doctorLastName']; ?> </h3>
                                 <hr />
                                 
                                 <div class="panel panel-default">
